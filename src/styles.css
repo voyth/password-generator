@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 62.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://png.pngtree.com/background/20230525/original/pngtree-numerous-keys-on-a-wooden-surface-picture-image_2735851.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}

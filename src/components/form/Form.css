@@ -1,0 +1,33 @@
+#description {
+  font-size: 1rem;
+  color: #6b6b6b;
+  font-weight: 600;
+}
+
+#checkboxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 5rem;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: #1c61da;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.7rem 0rem;
+  border-radius: 25px;
+  transition: all 0.3s linear;
+  width: 10rem;
+}
+
+button:hover {
+  background-color: #254988;
+  width: 12rem;
+  border-radius: 10px;
+}

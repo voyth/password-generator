@@ -1,0 +1,40 @@
+#overlay {
+  z-index: 1;
+  background-color: #3c3c3c88;
+  background: linear-gradient(to right bottom, #1f7ddb5c, #000000c7);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blurred-margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff23;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
+
+.App {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  gap: 1rem;
+  border-radius: 10px;
+  width: 30rem;
+}
+
+h1 {
+  padding: 0rem 4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  background: linear-gradient(to right, #1cda7b 0%, #1c61da 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
